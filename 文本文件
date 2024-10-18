@@ -1,0 +1,5 @@
+python3 imitate_episodes.py --task_name sim_insertion_human --ckpt_dir /home/hp-t4/imlearning/sim_insertion_human --policy_class ACT --kl_weight 10 --chunk_size 100 --hidden_dim 512 --batch_size 4 --dim_feedforward 3200 --num_epochs 2000  --lr 1e-5 --seed 0
+
+
+#靠泊控制训练
+python3 imitate_episodes.py --task_name sim_berthing --ckpt_dir /home/hp-t4/imlearning/sim_berthing --policy_class ACT --kl_weight 10 --chunk_size 100 --hidden_dim 512 --batch_size 4 --dim_feedforward 3200 --num_epochs 2000  --lr 1e-5 --seed 0
